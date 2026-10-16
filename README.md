@@ -4,9 +4,12 @@
 
 Permite a un jugador humano (piezas blancas) enfrentarse a la computadora (piezas rojas), la cual utiliza el algoritmo **Minimax con poda Alfa-Beta** para decidir sus movimientos.
 
+### Proyecto compilado 
+![imagen del proyectos compilados ](readMeIMG/img1.png "imagen del proyecto compilado")
+
 ---
 
-## 🧠 Inteligencia Artificial
+## Inteligencia Artificial
 
 ### Algoritmo Minimax con Poda Alfa-Beta
  `minimax.java` y evalua el arbol de juego hasta una **profundidad fija de 3 movimientos**.
@@ -20,7 +23,7 @@ La evaluacion de cada posicion del tablero considera:
 
 | Pieza   | Valor base | Bonificaciones                        |
 |---------|-----------|----------------------------------------|
-| Peón    | 100       | +12 por centro, +2 por fila avanzada  |
+| Peon    | 100       | +12 por centro, +2 por fila avanzada  |
 | Caballo | 315       | ±15 / ±5 según cercanía al centro     |
 | Alfil   | 330       | ±15 centro + bonificación por movilidad |
 | Torre   | 500       | Bonificación por movilidad             |
